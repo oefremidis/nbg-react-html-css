@@ -1,0 +1,33 @@
+main {
+  background-color: lightpink;
+}
+
+footer {
+  background-color: lightsalmon;
+}
+
+#color-list {
+  color: red;
+}
+
+.green-color {
+  color: magenta;
+  font-size: large;
+}
+
+a {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+a:visited {
+  color: lime
+}
+
+a, h2:hover {
+  color:red;
+}
+
+.yellow {
+  font-size: 48px;
+}

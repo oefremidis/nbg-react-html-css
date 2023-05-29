@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+
+<!-- This is my first page -->
+
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Intro HTML, CSS</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<style>
+  header {
+    background-color: lightblue;
+  }
+
+</style>
+
+
+<body>
+
+  <nav id="nav" style="background-color: aquamarine;">
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="http://google.com">About</a></li>
+    </ul>
+  </nav>
+
+  <header id="header">
+    <h2>Welcome to our Site</h2>
+  </header>
+
+  <main id="main">
+    <section>
+      <img src="./logo-black.svg" alt="An image">
+      <form>
+        <label class="yellow">Search: </label><input type="text">
+      </form>
+    </section>
+    <section>
+      <header style="background-color: lightgreen;">
+        <h3 class="green-color">Colors</h3>
+      </header>
+      <ul id="color-list">
+        <li>red</li>
+        <li class="yellow">green</li>
+        <li>blue</li>
+      </ul>
+    </section>
+    <article>
+
+      <table border="1">
+        <tr>
+          <th>Company</th>
+          <th>Country</th>
+        </tr>
+        <tr>
+          <td class="green-color">Alfreds Futterkiste</td>
+          <td>Germany</td>
+        </tr>
+        <tr>
+          <td class="yellow">Centro comercial Moctezuma</td>
+          <td>Mexico</td>
+        </tr>
+      </table>
+
+    </article>
+  </main>
+
+  <footer id="footer">
+    <p class="green-color">Powered <i>by</i> 2023 &copy;</p>
+  </footer>
+
+</body>
+
+</html>
